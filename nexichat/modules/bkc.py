@@ -2,9 +2,9 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from nexichat import nexichat
-from config import SUPPORT_CHAT
+from config import SUPPORT_GRP
 
-BUTTON = InlineKeyboardMarkup([[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT)]])
+BUTTON = InlineKeyboardMarkup([[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=SUPPORT_GRPT)]])
 
 HOT = "https://telegra.ph/file/daad931db960ea40c0fca.gif"
 SMEXY = "https://telegra.ph/file/a23e9fd851fb6bc771686.gif"
