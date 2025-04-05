@@ -1,7 +1,7 @@
 import requests
 import asyncio
 import urllib.parse
-from alicex import app  
+from nexichat import nexichat as app
 from pyrogram import Client, filters, enums
 
 def ask_query(query: str) -> str:
