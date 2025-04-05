@@ -15,8 +15,6 @@ from nexichat import nexichat, mongo, LOGGER, db, SUDOERS
 from nexichat.modules.helpers import languages, CHATBOT_ON
 from nexichat.modules.helpers import (
     ABOUT_BTN,
-    ABOUT_READ,
-    ADMIN_READ,
     BACK,
     CHATBOT_BACK,
     CHATBOT_READ,
@@ -24,7 +22,6 @@ from nexichat.modules.helpers import (
     HELP_BTN,
     HELP_READ,
     MUSIC_BACK_BTN,
-    SOURCE_READ,
     START,
     TOOLS_DATA_READ,
 )
