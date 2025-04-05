@@ -16,8 +16,7 @@ from config import OWNER_ID, MONGO_URL, OWNER_USERNAME
 from pyrogram.errors import FloodWait, ChatAdminRequired
 from nexichat.database.chats import get_served_chats, add_served_chat
 from nexichat.database.users import get_served_users, add_served_user
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
-from nexichat.assets import image1, image2, image3  # replace with actual image names and paths
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery 
 from nexichat.modules.helpers import (
     START,
     START_BOT,
