@@ -26,7 +26,6 @@ from nexichat.modules.helpers import (
     HELP_BUTN,
     HELP_READ,
     HELP_START,
-    SOURCE_READ,
 )
 OK = "**ʜᴇʏ👀**"
 AUTO_MSG = f"""{os.getenv("AUTO_MSG")}""" if os.getenv("AUTO_MSG") else OK
