@@ -52,11 +52,9 @@ EMOJIOS = [
     "🕊",
 ]
 
-BOT = "nexichat/assets/image1.jpg"
+BOT = "https://files.catbox.moe/isagrc.jpg"
 IMG = [
-    "nexichat/assets/image1.jpg",
-    "nexichat/assets/image2.jpg",
-    "nexichat/assets/image3.jpg",
+    "https://files.catbox.moe/isagrc.jpg",
 ]
 
 
