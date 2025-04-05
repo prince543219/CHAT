@@ -16,8 +16,6 @@ import config
 from nexichat import LOGGER, nexichat, db
 from nexichat.modules.helpers import (
     ABOUT_BTN,
-    ABOUT_READ,
-    ADMIN_READ,
     BACK,
     CHATBOT_BACK,
     CHATBOT_READ,
@@ -25,7 +23,6 @@ from nexichat.modules.helpers import (
     HELP_BTN,
     HELP_READ,
     MUSIC_BACK_BTN,
-    SOURCE_READ,
     START,
     TOOLS_DATA_READ,
     languages,
