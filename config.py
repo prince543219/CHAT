@@ -11,7 +11,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7932293909:AAFecHjroKHn6GpI1fNdQRcTjJGvejUTyBU"
 STRING1 = getenv("STRING_SESSION", None)
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://surajit54321:surajit54321@cluster0.7mn37.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = int(getenv("OWNER_ID", "6375272628"))
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yourtoofan/CHATBOT")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/prince543219/CHAT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 SUPPORT_GRP = "UmbrellaUCorp"
 SUPPORT_GRP = getenv("SUPPORT_GRP", "UmbrellaUCorp")
