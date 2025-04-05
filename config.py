@@ -17,5 +17,6 @@ SUPPORT_GRP = "UmbrellaUCorp"
 SUPPORT_GRP = getenv("SUPPORT_GRP", "UmbrellaUCorp")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "moviiieeeesss")
 # GIT TOKEN ( if your edited repo is private)
+OWNER_USERNAME = "bannerking69"
 GIT_TOKEN = getenv("GIT_TOKEN", "")
     
