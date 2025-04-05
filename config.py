@@ -13,7 +13,7 @@ MONGO_URL = getenv("MONGO_URL", "mongodb+srv://surajit54321:surajit54321@cluster
 OWNER_ID = int(getenv("OWNER_ID", "6375272628"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yourtoofan/CHATBOT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-SUPPORT_GRP = "THE_INCRICIBLE"
+SUPPORT_GRP = "UmbrellaUCorp"
 SUPPORT_GRP = getenv("SUPPORT_GRP", "UmbrellaUCorp")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "moviiieeeesss")
 # GIT TOKEN ( if your edited repo is private)
