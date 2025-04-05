@@ -1,7 +1,7 @@
 import random
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from Prince import app
+from nexichat import nexichat
 from config import SUPPORT_CHAT
 
 BUTTON = InlineKeyboardMarkup([[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT)]])
@@ -20,7 +20,7 @@ LANG = "https://telegra.ph/file/423414459345bf18310f5.gif"
 CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
 
 
-@app.on_message(filters.command("horny"))
+ @nexichat.on_message(filters.command("horny"))
 async def horny(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -30,7 +30,7 @@ async def horny(_, message):
     await message.reply_text(HORNY, reply_markup=BUTTON, disable_web_page_preview=True, quote=True)
 
 
-@app.on_message(filters.command("gay"))
+ @nexichat.on_message(filters.command("gay"))
 async def gay(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -40,7 +40,7 @@ async def gay(_, message):
     await message.reply_text(GAY, reply_markup=BUTTON, disable_web_page_preview=True, quote=True)
 
 
-@app.on_message(filters.command("lesbian"))
+ @nexichat.on_message(filters.command("lesbian"))
 async def lezbian(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -50,7 +50,7 @@ async def lezbian(_, message):
     await message.reply_text(FEK, reply_markup=BUTTON, disable_web_page_preview=True, quote=True)
 
 
-@app.on_message(filters.command("boob"))
+ @nexichat.on_message(filters.command("boob"))
 async def boob(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -60,7 +60,7 @@ async def boob(_, message):
     await message.reply_text(BOOBS, reply_markup=BUTTON, disable_web_page_preview=True, quote=True)
 
 
-@app.on_message(filters.command("cock"))
+ @nexichat.on_message(filters.command("cock"))
 async def cock(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
@@ -70,7 +70,7 @@ async def cock(_, message):
     await message.reply_text(COCK, reply_markup=BUTTON, disable_web_page_preview=True, quote=True)
 
 
-@app.on_message(filters.command("cute"))
+ @nexichat.on_message(filters.command("cute"))
 async def cute(_, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
